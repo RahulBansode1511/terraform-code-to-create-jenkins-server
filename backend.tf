@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "young-minds-app"
+    bucket = "mydev-project-terraform-sample-batch-30-2"
     region = "us-east-1"
     key = "eks/terraform.tfstate"
   }
